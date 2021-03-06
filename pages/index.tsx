@@ -24,6 +24,18 @@ export default function Home() {
       <meta name="twitter:description" content="O Ateliê Mininax trabalha com artesanato e costura em Curitiba - Barreirinha" />
       <link rel="canonical" href="https://mininax.com.br" /> 
       <title>Mininax</title>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5KW36HEMD"></script>
+      <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-W5KW36HEMD');
+              `,
+            }}
+      />
   </head>
   <body>
   <div className="App">
