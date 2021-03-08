@@ -60,6 +60,14 @@ export default function Home() {
         >
           Facebook
         </a>
+        <a
+          className="App-link"
+          href="tel:41998109882"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          41 998109882
+        </a>
       </header>
     </div>
     
